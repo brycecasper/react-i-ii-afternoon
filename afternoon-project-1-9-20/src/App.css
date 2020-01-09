@@ -1,0 +1,85 @@
+.header {
+  position: relative;
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+.home {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  color: black;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.usercard {
+  height: 85vh;
+  width: 100%;
+  background-color: dimgray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.display {
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  margin: 80px 50px 0px 50px;
+}
+
+.previousButton {
+  margin-left: 50px;
+  background-color: dimgray;
+  border: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.nextButton {
+  margin-left: 1000px;
+  background-color: dimgray;
+  border: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.id {
+  text-align: end;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.name {
+  margin-left: 50px;
+  margin-top: -30px;
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: dodgerblue;
+}
+
+.titles {
+  margin-left: 50px;
+  font-weight: 700;
+}
+
+.span {
+  font-weight: normal;
+}
+
+.titlesMovie {
+  margin-left: 50px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.movies {
+  margin-left: 80px;
+}
